@@ -65,3 +65,7 @@ def test_std7():
     assert_equal(obs, exp)
 
 # FIXME Put Variance tests here
+
+def test_median():
+    """Test some standard behavior of the median() function."""
+    assert(median([2,3,4]) == 3)
